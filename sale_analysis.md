@@ -13,7 +13,7 @@ This analysis explores key business metrics from a grocery store sales database.
 ## Sale performance
 1. Months with highest revenue (descending)
 | month|revenue_by_month|
-|----|----------------:|
+|----:|----------------:|
 |   1|   1104481819.67|
 |   3|   1061640739.74|
 |   4|   1025778751.60|
@@ -22,7 +22,7 @@ This analysis explores key business metrics from a grocery store sales database.
 
 2. Week days with highest revenue (descending)
 | day     |revenue_by_day|
-|---------|--------------:|
+|---------:|--------------:|
 |Wednesday|  649903023.91|
 |Monday   |  649740822.05|
 |Tuesday  |  649168435.98|
