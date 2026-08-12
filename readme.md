@@ -1,13 +1,35 @@
 # Grocery Store Sales Analytics
 
-## Project Overview
+## 📌 Project Overview
 
-This project demonstrates an end-to-end data analytics workflow using PostgreSQL and Tableau. Starting from a normalized relational database, I created analytics views with SQL to answer business questions and developed an interactive Tableau dashboard to visualize sales performance, customer behavior, product performance, and geographic trends.
+The project uses the Grocery Sales Database from [Kaggle](https://www.kaggle.com/datasets/andrexibiza/grocery-sales-dataset), a relational dataset containing sales transactions, customer and employee information, product details, and geographic data across cities and countries. The dataset is used to analyze sales performance and generate business insights through SQL and data visualization.
 
-### Skills Demonstrated
+## 🔗 Database
+<img src="relationship_diagram.png" alt="Alt Text" width="600" height="450">
+
+### Table Description
+| Table        | Description                      |
+| ------------ | -------------------------------- |
+| `sales`      | Sales transactions               |
+| `products`   | Product information              |
+| `categories` | Product categories               |
+| `customers`  | Customer information             |
+| `employees`  | Employee/salesperson information |
+| `cities`     | City and location information    |
+| `countries`  | Country information              |
+
+## 📂 Project Files
+| Files | Description| Tools |
+| ------| -----------| -----------------|
+|`scripts/01_constrants.sql`| Define primary and foreign key relationships | PostgreSQL |
+|`scripts/02_sale_analytics.sql`| Create sale analytics table | PostgreSQL |
+|`scripts/03_business_queries.sql`| SQL queries for business analysis | PostgreSQL |
+|`sale_analysis.md`| Summary of business analysis and findings | Git markdown |
+| `dashboard` | Data visualization of business analysis (... in progress) | Tableau |
+
+## 🛠️ Tools and skills
 
 - SQL (DDL, DML, JOINs, Views, Aggregations)
 - Relational Database Design (Primary & Foreign Keys)
-- Data Modeling
-- Tableau Dashboard Development
+- Data Visualization (... in progress)
 - Business Intelligence & KPI Reporting
