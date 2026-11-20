@@ -2,7 +2,7 @@
 
 ## 📌 Project Overview
 
-The project uses the Grocery Sales Database from [Kaggle](https://www.kaggle.com/datasets/andrexibiza/grocery-sales-dataset), a relational dataset containing sales transactions, customer and employee information, product details, and geographic data across cities and countries. The dataset is used to analyze sales performance and generate business insights through SQL and data visualization.
+The project uses the Grocery Sales Database from [Kaggle](https://www.kaggle.com/datasets/andrexibiza/grocery-sales-dataset), a relational dataset containing sales transactions, customer and employee information, product details, and geographic data across cities and countries. The dataset is used to analyze sales performance and generate business insights through SQL.
 
 ## 📂 Project Files
 | Files | Description| Tools |
